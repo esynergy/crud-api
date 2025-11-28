@@ -1,6 +1,7 @@
 ## How to run
 ```bash
 git clone https://github.com/esynergy/crud-api.git
+cp .env.example .env
 npm install
 ```
 
@@ -52,4 +53,5 @@ curl -X PUT http://localhost:3000/api/v1/documents/1 \
 curl -X DELETE http://localhost:3000/api/v1/documents/1
 
 ```
+
 
